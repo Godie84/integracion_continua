@@ -82,7 +82,8 @@
                     <div class="form-group">
                     <p><a href="../SolucionesHardsoft/vista/contacto.php" class="text-info">CONTACTO</a></p>
                         <p>Email: diego.reina9hotmail.com</p>
-                        <p>Celular: 3118020696</p>
+                        <p>Celular: 3118020696</p>                        
+                        <p>Direccion: Calle 150 #30-50 Bogotá</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -98,7 +99,7 @@
         </div>
         <div class="text-center mt-3">
             © 2024 Copyright:
-            <a class="text-white" href="https://www.solucioneshardsoft.com/">Soluciones HardSoft</a>
+            <a class="text-white" href="https://www.solucioneshardsoft.com/">Esta página fue desarrollada por Soluciones Hardsoft, derechos reservados</a>
 
         </div>
     </footer>
