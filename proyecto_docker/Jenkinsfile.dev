@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                script {
+                    // Build Docker images
+                    sh 'docker-compose build'
+                }
+            }
+        }
+        stage('Test') {
+            steps {
+                script {
+                    // Run tests (assume you have some tests to run)
+                    sh 'docker-compose run web php /var/www/html/vendor/bin/phpunit'
+                }
+            }
+        }
+    }
+}
